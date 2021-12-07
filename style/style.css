@@ -149,6 +149,9 @@ section .city {
 section .city .box{
     padding-bottom: 110px;
 }
+section .city .box .top{
+    
+}
 section .city .box .top h1{
     font-family: 'Roboto-black';
     font-size: 50px;
@@ -406,7 +409,12 @@ footer .bottom .right p{
 }
 @media screen and (max-width: 562px) {
     section .city .box .top h1{
-        transform: scale(0.6);
+        font-size: 40px;
+        /* display: inline-block; */
+        /* padding-bottom: 100px; */
+    }
+    section .city .box .top{
+        /* width: 50px; */
     }
     footer .bottom .right p{
         padding: 20px 0 0 0;
@@ -425,6 +433,7 @@ footer .bottom .right p{
     }
     section .price .img .item {
         margin-bottom: 80px;
+        margin: auto;
     }
     header .row .message{
         margin-top: 200px;
