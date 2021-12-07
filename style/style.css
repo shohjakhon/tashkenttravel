@@ -169,7 +169,7 @@ section .city .box .bottom p{
 }
 section .city .img .item{
     position: relative;
-    width: 360px;
+    /* width: 360px; */
     margin-bottom: 30px;
 }
 section .city .img .item::before{ 
@@ -431,9 +431,18 @@ footer .bottom .right p{
     section .service .txt {
         text-align: justify;
     }
+    section .price .img{
+        /* margin: right 20px; */
+        /* padding-right: 200px; */
+    }
     section .price .img .item {
         margin-bottom: 80px;
-        margin: auto;
+        /* margin: auto; */
+        /* padding-right: 50px; */
+    }
+    section .price .img .item img{
+        
+        margin-right:105px;
     }
     header .row .message{
         margin-top: 200px;
